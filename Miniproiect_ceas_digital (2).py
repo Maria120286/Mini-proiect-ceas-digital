@@ -33,8 +33,5 @@ def display_time():
             print(line)
 
         time.sleep(1)
-        print("\033c", end="")
-
-
+        print("\033c", end="")
 display_time()
-S
